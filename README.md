@@ -56,7 +56,7 @@ Pré-requisitos: Node.js instalado.
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/SEU_USUARIO/jokenpo-pro.git](https://github.com/SEU_USUARIO/jokenpo-pro.git)
+git clone https://github.com/pablomigueldias/JokenpoPro
 
 # 2. Entre na pasta
 cd jokenpo-pro
