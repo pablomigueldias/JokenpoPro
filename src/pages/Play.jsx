@@ -1,9 +1,13 @@
 import React from 'react'
+import { useState } from 'react'
+import Modal from '../components/Modal.jsx'
 import pedra from '../img/pedraSemCirculo1.png'
 import papel from '../img/papelSemCirculo1.png'
 import tesoura from '../img/tesouraSemCirculo1.png'
 
 const Play = ({ setPlayerChoice }) => {
+
+    const [modelOpen, setModalOpen] = useState(false);
 
     const options = [
         { id: 'rock', img: pedra, color: 'border-rosa', glow: 'hover:shadow-[0_0_30px_#981b88]' },
@@ -48,10 +52,11 @@ const Play = ({ setPlayerChoice }) => {
                     py-2 px-8 rounded-full uppercase tracking-widest
                     hover:bg-azul hover:text-white hover:shadow-[0_0_20px_#23629e] 
                     transition-all duration-300
-                ">
+                " onClick={() => setModalOpen(true)}>
                     Regras
                 </button>
             </div>
+            <Modal isOpen={modelOpen} onClose={() => setModalOpen(false)} />
         </div>
     )
 }
