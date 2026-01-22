@@ -1,3 +1,26 @@
-@tailwind base;
-@tailwing components;
-@tailwing utilities;
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+@theme {
+  --color-azulEscuro: #000033;
+  --color-roxoEscuro: #2e004f;
+  --color-branca: #d9d9d9;
+  --color-azul: #23629e;
+  --color-rosa: #981b88;
+
+  --color-neon-cyan: #00f3ff;
+  --color-neon-pink: #ff00ff;
+
+  --background-image-jokenpo: linear-gradient(0deg, #000033 0%, #2e004f 72%);
+}
+
+body {
+  background-image: var(--background-image-jokenpo);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
