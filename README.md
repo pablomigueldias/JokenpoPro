@@ -44,8 +44,10 @@ Para demonstrar competência técnica alinhada ao mercado atual, foram utilizada
 
 | Mobile View | Desktop View |
 |:---:|:---:|
-| ![Mobile](./src/img/mobile1.png,./src/img/mobile2.png,./src/img/mobile3.png,./src/img/mobile4.png) | ![Desktop](./src/img/desktop1.png,./src/img/desktop2.png,./src/img/desktop3.png,./src/img/desktop4.png) |
-
+| ![Mobile](src/img/mobile1.png) | ![Desktop](src/img/desktop1.png) |
+| ![Mobile](src/img/mobile2.png) | ![Desktop](src/img/desktop2.png) |
+| ![Mobile](src/img/mobile3.png) | ![Desktop](src/img/desktop3.png) |
+| ![Mobile](src/img/mobile4.png) | ![Desktop](src/img/desktop4.png) |
 ---
 
 ## Como rodar o projeto localmente
